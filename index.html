@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+        rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <meta charset="utf-8" />
+    <title>Questionnaire</title>
+</head>
+
+<body>
+    <div id="feuille">
+        <div id="delimitation">
+            <div id="heade">
+                <h1>SAE S105 - Recueil des besoins</h1>
+
+                <h2>Antoine Maïstre - Romain Patureau</h2>
+            </div>
+            <fieldset>
+                <legend>Comment jugez-vous votre niveau de compétence en réparation informatique ?</legend>
+                <label>
+                    <input type="radio" name="q2"> <span>Totalement inexpérimenté(e)</span> </label>
+                <label>
+                    <input type="radio" name="q2"> <span>Plutôt expérimenté(e)</span> </label>
+                <label>
+                    <input type="radio" name="q2"> <span>D'un bon niveau </span> </label>
+                <label>
+                    <input type="radio" name="q2"> <span>Expert(e)</span> </label>
+            </fieldset>
+            <!--Question 2-->
+            <fieldset>
+                <legend>Comment jugez-vous votre niveau de compétence concernant l’utilisation générale d’un ordinateur
+                    ?</legend>
+                <label>
+                    <input type="radio" name="q4"> <span>Totalement inexpérimenté(e)</span> </label>
+                <label>
+                    <input type="radio" name="q4"> <span>Plutôt expérimenté(e)</span> </label>
+                <label>
+                    <input type="radio" name="q4"> <span>D'un bon niveau</span> </label>
+                <label>
+                    <input type="radio" name="q4"> <span>Expert(e)</span> </label>
+            </fieldset>
+            <!--Question 3-->
+            <fieldset>
+                <legend>Quels appareils informatiques possédez-vous ?</legend>
+                <label>
+                    <input type="checkbox"> <span>Ordinateur fixe </span> </label>
+                <label>
+                    <input type="checkbox"> <span>Ordinateur portable </span> </label>
+                <label>
+                    <input type="checkbox"> <span>Tablette tactile </span> </label>
+                <label>
+                    <input type="checkbox"> <span>Imprimante</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Aucun des appareils</span> </label>
+            </fieldset>
+            <!--Question 4-->
+            <fieldset>
+                <legend>Quel usage a vos appareils dans votre foyer?</legend>
+                <label>
+                    <input type="radio" name="q3"> <span>Un usage bureautique (traitement de texte, Youtube)</span>
+                </label>
+                <label>
+                    <input type="radio" name="q3"> <span>Un usage multimédia avancé (montage photo, vidéo,
+                        programmation)</span> </label>
+                <label>
+                    <input type="radio" name="q3"> <span>Un usage "gamer" (jeux vidéos)</span> </label>
+                <label>
+                    <input type="radio" name="q3"> <span>Autre</span> </label>
+            </fieldset>
+            <!--Question 5-->
+            <fieldset>
+                <legend>Quel budget seriez-vous prêt à consacrer à l’achat d’un ordinateur personnalisé ?</legend>
+                <label>
+                    <input type="radio" name="q10"> <span>- 500</span> </label>
+                <label>
+                    <input type="radio" name="q10"> <span>500 - 700 </span> </label>
+                <label>
+                    <input type="radio" name="q10"> <span>700 - 900 </span> </label>
+                <label>
+                    <input type="radio" name="q10"> <span>900 - 1100</span> </label>
+                <label>
+                    <input type="radio" name="q10"> <span>1100 - 1300</span> </label>
+                <label>
+                    <input type="radio" name="q10"> <span>1300 +</span> </label>
+            </fieldset>
+            <!--Question 6-->
+            <fieldset>
+                <legend>Quel budget seriez-vous prêt à consacrer à la réparation d'un ordinateur ?</legend>
+                <label>
+                    <input type="radio" name="q11"> <span>- 100</span> </label>
+                <label>
+                    <input type="radio" name="q11"> <span>100 - 200</span> </label>
+                <label>
+                    <input type="radio" name="q11"> <span>200 - 300</span> </label>
+                <label>
+                    <input type="radio" name="q11"> <span>300 - 400</span> </label>
+                <label>
+                    <input type="radio" name="q11"> <span>400 - 500</span> </label>
+                <label>
+                    <input type="radio" name="q11"> <span>500 +</span> </label>
+            </fieldset>
+            <!--Question 7-->
+            <fieldset id="type_de_pro">
+                <legend>Vous faites réparer votre ordinateur par un professionnel : a qui faites vous appel ?</legend>
+                <label>
+                    <input type="checkbox" id="grande_surface"> <span>Une grande surface</span> </label>
+                <label>
+                    <input type="checkbox" id="petite_surface"> <span>Une boutique indépendante</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Autre</span> </label>
+            </fieldset>
+            <!--Question 8-->
+            <fieldset>
+                <legend>Votre ordinateur est en panne, à qui faites-vous appel ?</legend>
+                <label>
+                    <input type="checkbox"> <span>Je me dépanne seul ou je demande à un proche</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Je fais appel à un professionnel</span> </label>
+                <label>
+                    <input type="checkbox"> <span>J'achète un nouvel ordinateur </span> </label>
+                <label>
+                    <input type="checkbox"> <span>Je n'ai jamais rencontré ce genre de problème </span> </label>
+            </fieldset>
+            <!--Question 9-->
+            <fieldset>
+                <legend>Vous avez affirmé que vous ne vous rendriez pas dans une boutique indépendante. Qu’est-ce qui
+                    pourrait vous motiver à y aller ?</legend>
+                <label>
+                    <input type="checkbox"> <span>Des prix intéressants</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Un contrat de maintenance</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Des conseils de la part de professionnels</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Des formations sur l’utilisation de l’ordinateur </span> </label>
+                <label>
+                    <input type="checkbox"> <span>Un montage personnalisé de votre ordinateur</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Autre</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Rien</span> </label>
+            </fieldset>
+            <!--Question 10-->
+            <fieldset>
+                <legend>Si vous deviez faire appel à un réparateur informatique, quels moyens utiliseriez-vous ?
+                </legend>
+                <label>
+                    <input type="checkbox"> <span>Recommandations de proches</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Via un prospectus reçu en boite aux lettres</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Via un moteur de recherche Internet</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Via un site Internet recensant les réparateurs de votre région</span>
+                </label>
+                <label>
+                    <input type="checkbox"> <span>Via un annuaire</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Via une société d’aide à domicile</span> </label>
+                <label>
+                    <input type="checkbox"> <span>Autre </span> </label>
+            </fieldset>
+            <div class="questions_facultatives">
+                <h2>Vous souhaitez répondre à des questions supplémentaires facultatives
+                    pour nous aider dans nos recherches ?
+                </h2>
+
+                <label class="cliquez" for="cliquez-ici">cliquez ici !</label>
+                <input id="cliquez-ici" type="checkbox">
+
+                <div class="separation"></div>
+                <div id="postQuestions">
+                    <fieldset>
+                        <legend>Prénom et nom</legend>
+                        <label class=pre>
+                            <input type="text"> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Numéro de téléphone</legend>
+                        <label class=pre>
+                            <input type="tel"> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Courriel éléctionique</legend>
+                        <label class=pre>
+                            <input type="email"> </label>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Code postal</legend>
+                        <label class=pre>
+                            <input type="text"> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ville</legend>
+                        <label class=pre>
+                            <input type="text"> </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Date de naissance</legend>
+                        <label class=pre>
+                            <input type="date"> </label>
+                    </fieldset>
+                </div>
+            </div>
+            <button id="bouton" type="submit">soumettre le questionnaire </button>
+            </form>
+        </div>
+    </div>
+</body>
