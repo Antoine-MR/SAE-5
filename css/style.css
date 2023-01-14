@@ -273,11 +273,13 @@ button:hover {
 
 /*animations*/
 
+/*
 fieldset:hover{
     -webkit-box-shadow: 0px 13px 15px 5px rgba(28,209,255,0.44); 
     box-shadow: 0px 13px 15px 5px rgba(28,209,255,0.44);
     transition: 1s;
 }
+*/
 
 fieldset{
     transition: 1s;
